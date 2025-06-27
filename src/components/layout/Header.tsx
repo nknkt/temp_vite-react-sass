@@ -1,5 +1,5 @@
 import Navigation from './Navigation';
-import styles from './Header.module.css';
+import styles from './Header.module.scss';
 import logo from '../../assets/images/common/logo.png';
 
 

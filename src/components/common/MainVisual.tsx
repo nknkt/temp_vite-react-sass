@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './MainVisual.module.css';
+import styles from './MainVisual.module.scss';
 
 type Props = {
   page: string;

@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '../common/Button';
-import styles from './ContactForm.module.css';
+import styles from './ContactForm.module.scss';
 
 const ContactForm: React.FC = () => (
   <form className={styles.form}>

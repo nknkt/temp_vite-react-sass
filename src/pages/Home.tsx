@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../components/common/Button';
 import MainVisual from '../components/common/MainVisual';
-import styles from './Home.module.css';
+import styles from './Home.module.scss';
 import bnr from '../assets/images/home/bnr.png';
 
 const Home: React.FC = () => (

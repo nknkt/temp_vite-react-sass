@@ -9,11 +9,10 @@
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.2s;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
-
-@media (hover :hover) {
+@media (hover: hover) {
   .button:hover {
     background: var(--color-gray, #999);
   }
-}
+}/*# sourceMappingURL=Button.module.css.map */

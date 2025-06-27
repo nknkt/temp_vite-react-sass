@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../components/common/Button';
 import MainVisual from '../components/common/MainVisual';
-import styles from './About.module.css';
+import styles from './About.module.scss';
 
 const About: React.FC = () => (
   <main className="l-main">
