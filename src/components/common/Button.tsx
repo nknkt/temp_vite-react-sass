@@ -1,12 +1,11 @@
 import React from 'react';
-import styles from './Button.module.scss';
 
 type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   children: React.ReactNode;
 };
 
 const Button: React.FC<ButtonProps> = ({ children, className = '', ...props }) => (
-  <button className={`${styles.button}${className ? ` ${className}` : ''}`} {...props}>
+  <button className={`button${className ? ` ${className}` : ''}`} {...props}>
     {children}
   </button>
 );

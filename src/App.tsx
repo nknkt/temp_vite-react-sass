@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Layout from './components/layout/Layout';
-import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './pages/Contact';
+import Layout from './components/layout/layout';
+import Home from './pages/home';
+import About from './pages/about';
+import Contact from './pages/contact';
 
 function App() {
   useEffect(() => {

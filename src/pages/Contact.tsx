@@ -1,6 +1,6 @@
 import React from 'react';
-import MainVisual from '../components/common/MainVisual';
-import ContactForm from '../components/feature/ContactForm';
+import MainVisual from '../components/common/main-visual';
+import ContactForm from '../components/feature/contact-form';
 
 const Contact: React.FC = () => (
   <main className="l-main">

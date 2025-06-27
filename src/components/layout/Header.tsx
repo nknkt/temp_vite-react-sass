@@ -1,12 +1,11 @@
-import Navigation from './Navigation';
-import styles from './Header.module.scss';
+import Navigation from './navigation';
 import logo from '../../assets/images/common/logo.png';
 
 
 const Header = () => (
-  <header className={styles['header']}>
+  <header className="header">
     <h1>
-      <a href='/' className={styles['header__logo']}>
+      <a href='/' className="header__logo">
         <img src={logo} alt="Logo" />
       </a>
     </h1>
