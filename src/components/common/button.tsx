@@ -5,7 +5,7 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
 };
 
 const Button: React.FC<ButtonProps> = ({ children, className = '', ...props }) => (
-  <button className={`button${className ? ` ${className}` : ''}`} {...props}>
+  <button className={`c-button${className ? ` ${className}` : ''}`} {...props}>
     {children}
   </button>
 );

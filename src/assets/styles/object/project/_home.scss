@@ -1,0 +1,37 @@
+/* =====================================
+   Object - Project - Home Page
+   ===================================== */
+
+.p-home {
+  &__section {
+    margin-bottom: 60px;
+
+    @media (min-width: $breakpoint-tablet) {
+      margin-bottom: 80px;
+    }
+  }
+
+  &__button {
+    margin-top: 20px;
+
+    @media (min-width: $breakpoint-tablet) {
+      margin-top: 40px;
+    }
+  }
+
+  &__banner {
+    margin-top: 20px;
+
+    @media (min-width: $breakpoint-tablet) {
+      margin-top: 40px;
+    }
+  }
+
+  &__content {
+    text-align: center;
+
+    @media (min-width: $breakpoint-tablet) {
+      text-align: left;
+    }
+  }
+}

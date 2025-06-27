@@ -1,0 +1,39 @@
+/* =====================================
+   Object - Component - Main Visual
+   ===================================== */
+
+.c-main-visual {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #bbb;
+  margin-bottom: 60px;
+
+  &__inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 30px;
+    font-weight: var(--weight-bold);
+    margin: 0;
+
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 36px;
+    }
+  }
+
+  &__lead {
+    margin-top: 5px;
+    font-size: 20px;
+    margin-bottom: 0;
+
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 24px;
+    }
+  }
+}

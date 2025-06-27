@@ -1,0 +1,54 @@
+/* =====================================
+   Object - Component - Button
+   ===================================== */
+
+.c-button {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: var(--weight-bold, 700);
+  color: #fff;
+  background: var(--color-black, #141020);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  text-align: center;
+  text-decoration: none;
+
+  @media (hover: hover) {
+    &:hover {
+      background: var(--color-gray, #999);
+    }
+  }
+
+  &:focus {
+    outline: 2px solid var(--color-black);
+    outline-offset: 2px;
+  }
+
+  /* バリエーション */
+  &--secondary {
+    background: transparent;
+    color: var(--color-black);
+    border: 2px solid var(--color-black);
+
+    @media (hover: hover) {
+      &:hover {
+        background: var(--color-black);
+        color: #fff;
+      }
+    }
+  }
+
+  &--large {
+    padding: 15px 40px;
+    font-size: 16px;
+  }
+
+  &--small {
+    padding: 5px 20px;
+    font-size: 12px;
+  }
+}

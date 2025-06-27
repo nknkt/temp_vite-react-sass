@@ -7,10 +7,10 @@ type Props = {
 };
 
 const MainVisual: React.FC<Props> = ({ page, lead, children }) => (
-  <div className="mainVisual">
-    <div className="mainVisual__inner">
-      <h2 className="mainVisual__page">{page}</h2>
-      <h3 className="mainVisual__lead">{lead}</h3>
+  <div className="c-main-visual">
+    <div className="c-main-visual__inner">
+      <h2 className="c-main-visual__title">{page}</h2>
+      <h3 className="c-main-visual__lead">{lead}</h3>
       {children}
     </div>
   </div>

@@ -1,0 +1,32 @@
+/* =====================================
+   Object - Project - Contact Page
+   ===================================== */
+
+.p-contact {
+  &__section {
+    margin-bottom: 60px;
+
+    @media (min-width: $breakpoint-tablet) {
+      margin-bottom: 80px;
+    }
+  }
+
+  &__form-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    @media (min-width: $breakpoint-tablet) {
+      margin-top: 60px;
+    }
+  }
+
+  &__content {
+    text-align: center;
+    margin-bottom: 30px;
+
+    @media (min-width: $breakpoint-tablet) {
+      margin-bottom: 40px;
+    }
+  }
+}
