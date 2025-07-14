@@ -1,20 +1,15 @@
-/* =====================================
-   Foundation - Base
-   ===================================== */
-
-/* リセット・ベーススタイル */
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: var(--color-bg-main);
+  background-color: $color-bg-main;
   margin: 0;
   font-family: 'YakuHanJP', 'Noto Sans JP', sans-serif;
   font-size: 14px;
-  font-weight: var(--weight-base);
+  font-weight: $weight-base;
   line-height: 1.65;
-  color: var(--color-font-base);
+  color: $color-font-base;
   letter-spacing: 0.06em;
   /* font-feature-settings: 'palt'; */
   -webkit-font-smoothing: antialiased;
@@ -27,7 +22,7 @@ body {
 }
 
 ::selection {
-  color: var(--select);
+  color: $select;
 }
 
 img {
@@ -38,7 +33,7 @@ img {
 
 /* フォーカス・アクセシビリティ */
 *:focus {
-  outline: 2px solid var(--color-black);
+  outline: 2px solid $color-black;
   outline-offset: 2px;
 }
 

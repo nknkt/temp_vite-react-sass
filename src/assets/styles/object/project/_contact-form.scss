@@ -56,7 +56,7 @@
     transition: border-color 0.2s;
 
     &:focus {
-      border-color: var(--color-black);
+      border-color: $color-black;
       outline: none;
     }
   }

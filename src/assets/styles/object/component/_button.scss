@@ -6,9 +6,9 @@
   display: inline-block;
   padding: 10px 30px;
   font-size: 14px;
-  font-weight: var(--weight-bold, 700);
+  font-weight: $weight-bold;
   color: #fff;
-  background: var(--color-black, #141020);
+  background: $color-black;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -19,24 +19,24 @@
 
   @media (hover: hover) {
     &:hover {
-      background: var(--color-gray, #999);
+      background: $color-gray, #999;
     }
   }
 
   &:focus {
-    outline: 2px solid var(--color-black);
+    outline: 2px solid $color-black;
     outline-offset: 2px;
   }
 
   /* バリエーション */
   &--secondary {
     background: transparent;
-    color: var(--color-black);
-    border: 2px solid var(--color-black);
+    color: $color-black;
+    border: 2px solid $color-black;
 
     @media (hover: hover) {
       &:hover {
-        background: var(--color-black);
+        background: $color-black;
         color: #fff;
       }
     }

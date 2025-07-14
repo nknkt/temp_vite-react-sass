@@ -1,8 +1,3 @@
-/* =====================================
-   Object - Utility
-   ===================================== */
-
-/* コンテナ・内包要素 */
 .u-inner {
   margin-left: auto;
   margin-right: auto;
@@ -16,36 +11,6 @@
   }
 }
 
-/* テキスト関連 */
-.u-text-center {
-  text-align: center;
-}
-
-.u-text-left {
-  text-align: left;
-}
-
-.u-text-right {
-  text-align: right;
-}
-
-/* 表示・非表示 */
-.u-hidden {
-  display: none;
-}
-
-.u-visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
 /* レスポンシブ表示制御 */
 .u-hidden-mobile {
   @media (max-width: #{$breakpoint-tablet - 1px}) {
@@ -57,13 +22,4 @@
   @media (min-width: $breakpoint-tablet) {
     display: none;
   }
-}
-
-/* マージン・パディング */
-.u-margin-0 {
-  margin: 0;
-}
-
-.u-padding-0 {
-  padding: 0;
 }

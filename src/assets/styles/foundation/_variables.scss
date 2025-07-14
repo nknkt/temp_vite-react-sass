@@ -1,8 +1,3 @@
-/* =====================================
-   Foundation - Variables
-   ===================================== */
-
-/* カラー変数 */
 $color-font-base: #444;
 $color-bg-main: #f4f4f4;
 $color-gray: #999;
@@ -16,36 +11,13 @@ $gradient-black-black: linear-gradient(
 
 $select: #fff176;
 
-/* フォント変数 */
 $weight-base: 500;
 $weight-light: 300;
 $weight-bold: 700;
 
 $font-source: 'Source Sans Pro', sans-serif;
 
-/* アニメーション変数 */
 $transition-basic: 0.5s cubic-bezier(0, 0.55, 0.45, 1);
 
-/* ブレークポイント */
 $breakpoint-tablet: 768px;
 $breakpoint-desktop: 1024px;
-
-/* CSS変数（既存のコンポーネントとの互換性のため） */
-:root {
-  --color-font-base: #{$color-font-base};
-  --color-bg-main: #{$color-bg-main};
-  --color-gray: #{$color-gray};
-  --color-black: #{$color-black};
-
-  --gradient-black-black: #{$gradient-black-black};
-
-  --select: #{$select};
-
-  --weight-base: #{$weight-base};
-  --weight-light: #{$weight-light};
-  --weight-bold: #{$weight-bold};
-
-  --font-source: #{$font-source};
-
-  --transition-basic: #{$transition-basic};
-}
