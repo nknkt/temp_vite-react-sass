@@ -4,6 +4,7 @@
 
 /* Foundation
    ===================================== */
+@import './foundation/destyle';
 @import './foundation/variables';
 @import './foundation/fonts';
 @import './foundation/base';
@@ -12,6 +13,9 @@
    ===================================== */
 @import './layout/main';
 @import './layout/page';
+@import './layout/header';
+@import './layout/navigation';
+@import './layout/footer';
 
 /* Object
    ===================================== */
@@ -20,9 +24,6 @@
 @import './object/component/main-visual';
 
 /* Project */
-@import './object/project/header';
-@import './object/project/navigation';
-@import './object/project/footer';
 @import './object/project/contact-form';
 @import './object/project/home';
 @import './object/project/about';

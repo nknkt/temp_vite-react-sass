@@ -1,6 +1,6 @@
 const Footer = () => (
-  <footer className="p-footer">
-    <p className="p-footer__copyright">&copy; 2025 サイト名</p>
+  <footer className="l-footer">
+    <p className="l-footer__copyright">&copy; 2025 サイト名</p>
   </footer>
 );
 
