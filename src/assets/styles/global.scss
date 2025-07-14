@@ -1,33 +1,5 @@
-//======================================
-// FLOCSS Architecture
-//======================================
-
-// Foundation
-//--------------------------------------
-@use './foundation/destyle';
-@use './foundation/variables';
-@use './foundation/fonts';
-@use './foundation/base';
-
-// Layout
-//--------------------------------------
-@use './layout/main';
-@use './layout/page';
-@use './layout/header';
-@use './layout/navigation';
-@use './layout/footer';
-
-// Object
-//--------------------------------------
-// Component
-@use './object/component/button';
-@use './object/component/main-visual';
-
-// Project
-@use './object/project/contact-form';
-@use './object/project/home';
-@use './object/project/about';
-@use './object/project/contact';
-
-// Utility
-@use './object/utility/utility';
+@use 'foundation';
+@use 'layout';
+@use 'object/component';
+@use 'object/project';
+@use 'object/utility';
