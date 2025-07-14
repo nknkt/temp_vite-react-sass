@@ -1,4 +1,4 @@
-@use '../variables' as *;
+@use '../global' as *;
 
 .l-navigation {
   &__list {
@@ -21,7 +21,7 @@
     display: block;
     padding: 5px 10px;
 
-    @media (min-width: $breakpoint-tablet) {
+    @include pc {
       font-size: 14px;
     }
 

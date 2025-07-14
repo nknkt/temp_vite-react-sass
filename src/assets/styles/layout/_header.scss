@@ -1,4 +1,4 @@
-@use '../variables' as *;
+@use '../global' as *;
 
 .l-header {
   position: sticky;
@@ -11,14 +11,14 @@
   justify-content: space-between;
   z-index: 9999;
 
-  @media (min-width: $breakpoint-tablet) {
+  @include pc {
     padding: 20px;
   }
 
   &__logo {
     display: block;
 
-    @media (max-width: #{$breakpoint-tablet - 1px}) {
+    @include sp {
       width: 30vw;
     }
 

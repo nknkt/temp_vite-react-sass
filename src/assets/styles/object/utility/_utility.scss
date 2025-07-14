@@ -1,4 +1,4 @@
-@use '../../variables' as *;
+@use '../../global' as *;
 
 .u-inner {
   margin-left: auto;
@@ -6,7 +6,7 @@
   padding-right: 15px;
   padding-left: 15px;
 
-  @media (min-width: $breakpoint-tablet) {
+  @include pc {
     max-width: 1200px;
     padding-right: 30px;
     padding-left: 30px;
@@ -14,13 +14,13 @@
 }
 
 .u-hidden-mobile {
-  @media (max-width: #{$breakpoint-tablet - 1px}) {
+  @include sp {
     display: none;
   }
 }
 
 .u-hidden-tablet {
-  @media (min-width: $breakpoint-tablet) {
+  @include pc {
     display: none;
   }
 }

@@ -1,0 +1,19 @@
+@use "../variables" as *;
+
+@mixin sp {
+  @media only screen and (max-width: #{$breakpoint-tablet - 1}) {
+    @content;
+  }
+}
+
+@mixin tb {
+  @media only screen and (min-width: #{$breakpoint-tablet}) and (max-width: #{$breakpoint-desktop - 1}) {
+    @content;
+  }
+}
+
+@mixin pc {
+  @media print, screen and (min-width: #{$breakpoint-desktop}) {
+    @content;
+  }
+}
