@@ -1,33 +1,33 @@
-/* =====================================
-   FLOCSS Architecture
-   ===================================== */
+//======================================
+// FLOCSS Architecture
+//======================================
 
-/* Foundation
-   ===================================== */
-@import './foundation/destyle';
-@import './foundation/variables';
-@import './foundation/fonts';
-@import './foundation/base';
+// Foundation
+//--------------------------------------
+@use './foundation/destyle';
+@use './foundation/variables';
+@use './foundation/fonts';
+@use './foundation/base';
 
-/* Layout
-   ===================================== */
-@import './layout/main';
-@import './layout/page';
-@import './layout/header';
-@import './layout/navigation';
-@import './layout/footer';
+// Layout
+//--------------------------------------
+@use './layout/main';
+@use './layout/page';
+@use './layout/header';
+@use './layout/navigation';
+@use './layout/footer';
 
-/* Object
-   ===================================== */
-/* Component */
-@import './object/component/button';
-@import './object/component/main-visual';
+// Object
+//--------------------------------------
+// Component
+@use './object/component/button';
+@use './object/component/main-visual';
 
-/* Project */
-@import './object/project/contact-form';
-@import './object/project/home';
-@import './object/project/about';
-@import './object/project/contact';
+// Project
+@use './object/project/contact-form';
+@use './object/project/home';
+@use './object/project/about';
+@use './object/project/contact';
 
-/* Utility */
-@import './object/utility/utility';
+// Utility
+@use './object/utility/utility';
