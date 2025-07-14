@@ -1,23 +1,23 @@
-$color-font-base: #444;
-$color-bg-main: #f4f4f4;
-$color-gray: #999;
-$color-black: #141020;
+$color-font-base: #444 !default;
+$color-bg-main: #f4f4f4 !default;
+$color-gray: #999 !default;
+$color-black: #141020 !default;
 
 $gradient-black-black: linear-gradient(
   0deg,
   rgba(20, 32, 36, 1) 0%,
   rgba(39, 55, 62, 1) 100%
-);
+) !default;
 
-$select: #fff176;
+$select: #fff176 !default;
 
-$weight-base: 500;
-$weight-light: 300;
-$weight-bold: 700;
+$weight-base: 500 !default;
+$weight-light: 300 !default;
+$weight-bold: 700 !default;
 
-$font-source: 'Source Sans Pro', sans-serif;
+$font-source: 'Source Sans Pro', sans-serif !default;
 
-$transition-basic: 0.5s cubic-bezier(0, 0.55, 0.45, 1);
+$transition-basic: 0.5s cubic-bezier(0, 0.55, 0.45, 1) !default;
 
-$breakpoint-tablet: 768px;
-$breakpoint-desktop: 1024px;
+$breakpoint-tablet: 768px !default;
+$breakpoint-desktop: 1024px !default;
