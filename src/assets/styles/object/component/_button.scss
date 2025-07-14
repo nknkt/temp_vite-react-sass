@@ -1,7 +1,3 @@
-/* =====================================
-   Object - Component - Button
-   ===================================== */
-
 .c-button {
   display: inline-block;
   padding: 10px 30px;
@@ -28,7 +24,6 @@
     outline-offset: 2px;
   }
 
-  /* バリエーション */
   &--secondary {
     background: transparent;
     color: $color-black;

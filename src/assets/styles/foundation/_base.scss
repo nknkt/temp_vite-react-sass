@@ -31,26 +31,22 @@ img {
   height: auto;
 }
 
-/* フォーカス・アクセシビリティ */
 *:focus {
   outline: 2px solid $color-black;
   outline-offset: 2px;
 }
 
-/* ボックスサイジング */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* リンクのデフォルトスタイル */
 a {
   color: inherit;
   text-decoration: none;
 }
 
-/* リストのデフォルトスタイル */
 ul,
 ol {
   list-style: none;
@@ -58,7 +54,6 @@ ol {
   padding: 0;
 }
 
-/* ボタンのデフォルトスタイル */
 button {
   background: none;
   border: none;
