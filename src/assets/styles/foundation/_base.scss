@@ -2,6 +2,19 @@
 
 html {
   scroll-behavior: smooth;
+
+  // // 0.1rem = 1px
+  // font-size: 62.5%;
+
+  // // fluid responsive
+  // // @include tb {
+  // //   font-size: calc(100vw * 10 / 768);
+  // // }
+
+  // @include sp {
+  //   font-size: calc(100vw * 10 / 375);
+  // }
+
 }
 
 body {
