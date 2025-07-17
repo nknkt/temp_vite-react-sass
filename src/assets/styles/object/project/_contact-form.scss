@@ -1,4 +1,4 @@
-@use '../../variables' as *;
+@use '../../global' as *;
 
 .p-contact-form {
   margin-top: 40px;
@@ -11,7 +11,7 @@
   flex-direction: column;
   gap: 16px;
 
-  @media (min-width: $breakpoint-tablet) {
+  @include pc {
     max-width: 500px;
     padding: 32px;
   }

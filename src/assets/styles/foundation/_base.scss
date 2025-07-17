@@ -1,7 +1,19 @@
-@use '../variables' as *;
+@use '../global' as *;
 
 html {
   scroll-behavior: smooth;
+
+  // // 0.1rem = 1px
+  // font-size: 62.5%;
+
+  // // fluid responsive
+  // // @include tb {
+  // //   font-size: calc(100vw * 10 / 768);
+  // // }
+
+  // @include sp {
+  //   font-size: calc(100vw * 10 / 375);
+  // }
 }
 
 body {
@@ -13,12 +25,12 @@ body {
   line-height: 1.65;
   color: $color-font-base;
   letter-spacing: 0.06em;
-  /* font-feature-settings: 'palt'; */
+  // font-feature-settings: 'palt';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 
-  @media (min-width: $breakpoint-tablet) {
+  @include pc {
     font-size: 16px;
   }
 }
