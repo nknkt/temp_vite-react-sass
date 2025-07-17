@@ -1,7 +1,7 @@
-$color-font-base: #444 !default;
-$color-bg-main: #f4f4f4 !default;
-$color-gray: #999 !default;
-$color-black: #141020 !default;
+$color-font-base: #1f1f1f !default;
+$color-bg-main: #fdfdfd !default;
+$color-accent-color: #fbca5a !default;
+$color-black: #1f1f1f !default;
 
 $gradient-black-black: linear-gradient(
   0deg,
@@ -9,9 +9,9 @@ $gradient-black-black: linear-gradient(
   rgba(39, 55, 62, 1) 100%
 ) !default;
 
-$select: #fff176 !default;
+$select: #fbca5a !default;
 
-$weight-base: 500 !default;
+$weight-base: 400 !default;
 
 $weight-light: 300 !default;
 $weight-bold: 700 !default;
